@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checking - Yuwan Networks Limited</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: rgb(254, 201, 215);
@@ -57,21 +61,28 @@
             .right p {
                 color: #666;
             }
+
+            .right .chinese {
+                font-family: "Noto Sans SC", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                color: #666;
+            }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="left">
             <video loop autoplay muted playsinline>
-                <source src="./kyukurarin.mp4" type="video/mp4">
+                <source src="https://raw.githubusercontent.com/yuwan027/Cloudflare-Custom-Pages/master/kyukurarin.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
         <div class="right">
             <h1>Welcome to Yuwan Networks Limited</h1>
             <p>Please wait… We are checking your browser</p>
-            <p>请稍后，我们正在检查连接安全</p>
-            ::CAPTCHA_BOX::
+            <p class="chinese">请稍后，我们正在检查连接安全</p>
         </div>
     </div>
 </body>
